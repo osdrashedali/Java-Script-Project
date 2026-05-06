@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #0f172a; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Courier New', monospace;
+}
+
+.MyWatch {
+    background: #020617;
+    padding: 30px 50px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 25px #38bdf8;
+}
+
+.H {
+    font-size: 60px;
+    color: #38bdf8; 
+    letter-spacing: 3px;
+}
+
+.M {
+    font-size: 25px;
+    color: #facc15; 
+    margin-left: 10px;
+}
+
+.date {
+    font-size: 20px;
+    color: #94a3b8;
+    display: block;
+    margin-top: 10px;
+}
