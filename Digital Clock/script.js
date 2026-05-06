@@ -4,8 +4,6 @@ function myTime(){
     sec = (myDate.getSeconds()<10)? "0" + myDate.getSeconds() : myDate.getSeconds(),
     M = (myDate.getHours()>=12)? "PM":"AM";
 
-
-
     if(myDate.getHours()==0){
         hour = 12;
     }else if(myDate.getHours()>12){
@@ -24,7 +22,7 @@ function myTime(){
 
      day = myDate.getDate();
 
-     var currentDate = myDay[myDate.getDay()] + "," + myMonth[myDate.getMonth()] + day;
+     var currentDate = myDay[myDate.getDay()] + "," + day +" "+ myMonth[myDate.getMonth()] ;
      document.getElementsByClassName("date")[0].innerHTML = currentDate;
 }
     myTime();
