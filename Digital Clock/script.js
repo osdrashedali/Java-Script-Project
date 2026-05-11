@@ -25,6 +25,7 @@ function myTime(){
      var currentDate = myDay[myDate.getDay()] + "," + day +" "+ myMonth[myDate.getMonth()] ;
      document.getElementsByClassName("date")[0].innerHTML = currentDate;
 }
+
     myTime();
     setInterval(function(){
         myTime();
